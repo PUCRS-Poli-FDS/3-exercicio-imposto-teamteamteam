@@ -10,10 +10,10 @@ out
 .idea
 .vscode
 
-# Ignore configuration files
+# Ignore configuration files and directories
 .settings
 .classpath
 .project
-.iml
+*.iml
 
 
