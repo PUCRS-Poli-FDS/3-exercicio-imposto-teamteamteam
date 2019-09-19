@@ -4,6 +4,16 @@
 # Ignore Gradle build output directory
 build
 bin
+out
 
+# Ignore IDE configurations directory
+.idea
+.vscode
+
+# Ignore configuration files
 .settings
+.classpath
+.project
+.iml
+
 
