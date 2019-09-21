@@ -76,15 +76,24 @@ Em função da idade e do número de dependentes do contribuinte devese aplicar 
 
 # Elementos identificados no universo de discurso
 - Pessoa
-- Dependente
-- Renda
-- Contribuição
+  - Nome
+  - CPF
+  - Renda
+    - Rendimento total nos últimos 12 meses
+    - Contribuição total previdenciária oficial
+    - **Base de cálculo** (Rendimento total - Contribuição total previdenciária)
+    - Desconto (baseado na idade ex.:5%)
+    - Valor do desconto (base de cálculo * desconto)
+    - **Base de cálculo** *final com desconto* (Base de cálculo - Valor do desconto)
+  - Idade (data nascimento)
+  - Número de dependentes
+
 - Declaração 
-    - Declaração Simples
-    - Declaração Completa
-- Desconto (previdência - rendimentos)
-- Cálculo do imposto de renda de pessoa física
-- Base de cálculo
-    - Base de cálculo zero (isento)
-    - Base de cálculo com rendimentos 
-    - Base de cálculo com rendimento excedente
+    - Declaração Simples *(desconto fixo em 5%)*
+    - Declaração Completa *(desconto varia em função da idade e nº de dependentes)*
+    - Cálculo do imposto de renda de pessoa física
+      - Base de cálculo
+          - Base de cálculo zero (isento)
+          - Base de cálculo com rendimentos 
+          - Base de cálculo com rendimento excedente
+    - Contribuição (valor final após o cálculo)
