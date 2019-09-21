@@ -38,7 +38,43 @@ Em função da idade e do número de dependentes do contribuinte devese aplicar 
 - Se a base de cálculo for maior que R$ 12.000,00 e inferior a R$ 24.000,00, então o imposto a pagar corresponde a 15% do valor da base de cálculo que excede o valor da faixa anterior.
 - Se a base de cálculo for maior ou igual a R$ 24.000,00, então o imposto a pagar é equivalente ao imposto devido na faixa anterior mais 27,5% do valor da base de cálculo que excede a faixa anterior.
 
-## Elementos identificados no universo de discurso
+
+# Tabela das alíquotas
+
+### Alíquota do Universo de Discurso
+| **Valor Máximo** | **Diferença** |  **Imposto**  | **Imposto acumulado** |
+| :--------------: | :-----------: | :-----------: | :-------------------: |
+|  $R\$12.000,01$  |   $15,0\%$    | $R\$1.800,00$ |     $R\$1.800,00$     |
+|  $R\$24.000,00$  |   $12,50\%$   | $R\$3.000,00$ |     $R\$4,800,00$     |
+
+###### *Exemplo:*
+| Salário              | $R\$13.141,59$                        |
+| :------------------- | :------------------------------------ |
+| Alíquota nessa faixa | $15,0\%$                              |
+| Valor do imposto     | $R\$1.971,23$ *(R$13.141,59 * 0,15)*  |
+| Parcela a deduzir    | $R\$1.800,00$                         |
+| Imposto Final        | $R\$171,23$ *(R$1,971,23 - 1.800,00)* |
+| Alíquota Efetiva     | $1,303\%$                             |
+
+
+### Alíquota real em 2019
+| **Valor Máximo** | **Diferença** | **Imposto** | **Imposto acumulado** |
+| :--------------: | :-----------: | :---------: | :-------------------: |
+|  $R\$1.903,98$   |   $7,50\%$    | $R\$142,80$ |      $R\$142,80$      |
+|  $R\$2.823,65$   |   $7,50\%$    | $R\$212,00$ |      $R\$354,80$      |
+|  $R\$3.751,05$   |   $7,50\%$    | $R\$281,33$ |      $R\$636,13$      |
+|  $R\$4.664.68$   |   $5,00\%$    | $R\$233,23$ |      $R\$869,36$      |
+
+###### *Exemplo:*
+| Salário              | $R\$5.000,00$                        |
+| :------------------- | :----------------------------------- |
+| Alíquota nessa faixa | $27,5\%$                             |
+| Valor do imposto     | $R\$1.375,00$ *(R$5.000,00 * 0,275)* |
+| Parcela a deduzir    | $R\$869,36$                          |
+| Imposto Final        | $R\$505,64$ *(R$1.375,00 - 869,36)*  |
+| Alíquota Efetiva     | $10,11\%$                            |
+
+# Elementos identificados no universo de discurso
 - Pessoa
 - Dependente
 - Renda
@@ -52,4 +88,3 @@ Em função da idade e do número de dependentes do contribuinte devese aplicar 
     - Base de cálculo zero (isento)
     - Base de cálculo com rendimentos 
     - Base de cálculo com rendimento excedente
-
