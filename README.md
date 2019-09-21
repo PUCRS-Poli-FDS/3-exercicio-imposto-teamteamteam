@@ -53,3 +53,33 @@ Em função da idade e do número de dependentes do contribuinte devese aplicar 
     - Base de cálculo com rendimentos 
     - Base de cálculo com rendimento excedente
 
+### Tabela das alíquotas
+
+###### Do Universo de Discurso
+**Valor Máximo** **Diferença** **Imposto** **Imposto acumulado**
+R$12.000,01     15,0%       R$1.800,00      R$1.800,00
+R$24.000,00     7,50%       R$1.800,00      R$3,600,00
+
+*Exemplo:*
+Salário: **R$13.141,59**
+Alíquota nessa faixa: **15,0%**
+Valor do imposto: **R$1.971,23** *(13.141,59 * 0,15)*
+Parcela a deduzir: **1.800,00**
+Imposto Final: **171,23** *(1,971,23 - 1.800,00)*
+Alíquota Efetiva: **1,303%**
+
+
+###### Real em 2019
+**Valor Máximo** **Diferença** **Imposto** **Imposto acumulado**
+R$1.903,98      7,50%       R$142,80        R$142,80
+R$2.823,65      7,50%       R$212,00        R$354,80
+R$3.751,05      7,50%       R$281,33        R$636,13
+R$4.664.68      5,00%       R$233,23        R$869,36
+
+*Exemplo:*
+Salário: **R$5.000,00**
+Alíquota nessa faixa: **27,5%**
+Valor do imposto: **R$1.375,00** *(5.000 * 0,275)*
+Parcela a deduzir: **869,36**
+Imposto Final: **505,64** *(1,375,00 - 869,36)*
+Alíquota Efetiva: **10,11%**
