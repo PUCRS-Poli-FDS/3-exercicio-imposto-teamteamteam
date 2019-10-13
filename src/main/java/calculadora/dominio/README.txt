@@ -1,6 +1,5 @@
- /*
-
-
+    Pseudocódigo para calcular o imposto de renda
+    
     salario-contribuicao = salario bruto( valor da onde sera calculado o imposto)
         valores também se alteram conforme idade do contribuinte
         valore dos dependentes apenas alteram o deconto no salario bruto
@@ -22,5 +21,3 @@
 
         valorLiquido * 0.275 = valor(não se exatamente onome desse resultado, mas funciona) 
         valor - 4800 ( imposto acumulado) = valor do imposto a ser pago
-
-    */
