@@ -2,14 +2,15 @@ package calculator.data;
 
 import java.util.ArrayList;
 
+import calculator.domain.Taxpayer;
+
 public class TaxpayerList {
-    private ArrayList<PessoaFisica> pessoas;
+    private ArrayList<Taxpayer> list;
 
 // criar singleton para essa classe
 
-    void cadastrar(PessoaFisica pessoa){
-        // gerar um cpf unico para a pessoa
-        pessoas.add(pessoa);
+    void register(Taxpayer person){
+        list.add(person);
     }
 
 

@@ -1,17 +1,17 @@
 package calculator.domain;
 
 public class Declaration {
-    private double desconto;
+    private double deduction;
 
-    public Declaration(double desconto) {
-        setDesconto(desconto);
+    public Declaration(double deduction) {
+        setDeduction(deduction);
     }
 
-    private void setDesconto(double desconto) {
-        this.desconto = desconto;
+    private void setDeduction(double deduction) {
+        this.deduction = deduction;
     }
 
-    public double desconto() {
-        return (double) this.desconto;
+    public double deduction() {
+        return (double) this.deduction;
     }
 }
