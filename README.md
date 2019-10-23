@@ -11,6 +11,10 @@ Um sistema é usado para o cadastramento de contribuintes (pessoas físicas) e c
 ###### **Campos obrigatórios para os contribuintes que fazem declaração completa
 ###### ***Campos obrigatórios para permitir o cálculo do imposto (qualquer modalidade)
 
+## Cálculo da contribuição para o INSS (Previdência)
+- Existe um limite máximo de desconto no INSS. Se o funcionário tiver salário muito alto, só poderá contribuir para a previdência até o valor do teto estabelecido (não pode contribuir mais que o teto). O limite máximo de desconto do INSS sobre o salário é R$642,34/mês, ou 11% de R$5.839,45. 
+- No caso de o funcionário fazer uma contribuição facultativa superior ao desconto máximo que é descontado por padrão, ele pode contribuir com no máximo o valor teto da contribuição para o INSS que é R$1.167,89/mês.
+
 ## Cálculo do imposto (declaração simplificada)
 - A base de cálculo é obtida descontando-se do total de rendimentos a contribuição previdenciária oficial.
 - Aplica-se um desconto único de 5% sobre a base de cálculo.
