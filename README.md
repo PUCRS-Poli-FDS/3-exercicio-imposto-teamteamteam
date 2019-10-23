@@ -101,3 +101,52 @@ Em função da idade e do número de dependentes do contribuinte devese aplicar 
           - Base de cálculo com rendimentos 
           - Base de cálculo com rendimento excedente
     - Contribuição (valor final após o cálculo)
+
+# Roadmap
+
+## Branches
+
+###### legend:
+```fiz/``` "desenvolvedor atribuído"
+
+```feat/``` "finalidade: implementar algo"
+
+```@commit:``` "título da tarefa"
+
+```#merge->master``` "a branch master recebe a feature"  
+
+```test/``` "finalidade: implementar testes"
+
+```fix/``` "finalidade: consertar algo"
+
+```bug/``` "finalidade: corrigir um bug"
+
+```
+/*
++ fiz
+  + feat
+  + test
+  + fix
+  + bug
+*/
+```
+
+```
++ fiz/feat/change-denominations-to-english-words
+    @commit: Alter classes denomination
+    @commit: Alter atributes denomination
+    @commit: Alter methods denomination
+    ?commit: Alter text from printed strings
+    #merge->master
++ fiz/feat/define-achitectural-constraints
+    @
++ fiz/feat/generate-random-data-for-taxpayer
+
++ fiz/feat/implement-algorithm-to-calculate-tax
+
++ fiz/feat/print-report-in-markdown
+
++ fiz/feat/implement-main-parameter-handling
+
+```
+
