@@ -1,11 +1,11 @@
-package calculadora.dominio;
+package calculator.domain;
 
 import java.util.InputMismatchException;
 
 public class CPF {
-    private String numero;
+    private String CPF;
 
-    public static boolean validar(String CPF) {
+    public static boolean isValid(String CPF) {
         // considera-se erro CPF's formados por uma sequencia de numeros iguais
         if (CPF.equals("00000000000") ||
             CPF.equals("11111111111") ||
@@ -63,7 +63,7 @@ public class CPF {
         }
     }
         
-    public static String imprimir(String CPF) {
+    public static String print(String CPF) {
         return(CPF.substring(0, 3) + "." + CPF.substring(3, 6) + "." +
         CPF.substring(6, 9) + "-" + CPF.substring(9, 11));
     }

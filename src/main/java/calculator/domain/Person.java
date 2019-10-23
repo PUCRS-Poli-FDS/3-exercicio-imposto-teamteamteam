@@ -1,10 +1,10 @@
-package calculadora.dominio;
+package calculator.domain;
 
-public class PessoaFisica {
+public abstract class Person {
     private String nome;
     private String CPF;
 
-    public PessoaFisica(String nome, String CPF) {
+    public Person(String nome, String CPF) {
         setNome(nome);
         setCPF(CPF);
     }

@@ -1,9 +1,9 @@
-package calculadora.dominio;
+package calculator.domain;
 
-public class Declaracao {
+public class Declaration {
     private double desconto;
 
-    public Declaracao(double desconto) {
+    public Declaration(double desconto) {
         setDesconto(desconto);
     }
 

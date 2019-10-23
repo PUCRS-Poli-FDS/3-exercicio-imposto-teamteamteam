@@ -133,7 +133,7 @@ Em função da idade e do número de dependentes do contribuinte devese aplicar 
 
 ```
 + fiz/feat/change-denominations-to-english-words
-    @commit: Alter classes denomination
+    @commit: Alter packages and classes denomination
     @commit: Alter atributes denomination
     @commit: Alter methods denomination
     ?commit: Alter text from printed strings

@@ -1,8 +1,8 @@
-package calculadora.dominio;
+package calculator.data;
 
 import java.util.ArrayList;
 
-public class CadastroPessoasFisicas {
+public class TaxpayerList {
     private ArrayList<PessoaFisica> pessoas;
 
 // criar singleton para essa classe
