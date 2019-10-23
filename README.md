@@ -121,22 +121,11 @@ Em função da idade e do número de dependentes do contribuinte devese aplicar 
 
 ```bug/``` "finalidade: corrigir um bug"
 
-```
-/*
-+ fiz
-  + feat
-  + test
-  + fix
-  + bug
-*/
-```
 
 ```
 + fiz/feat/change-denominations-to-english-words
     @commit: Alter packages and classes denomination
-    @commit: Alter atributes denomination
-    @commit: Alter methods denomination
-    ?commit: Alter text from printed strings
+    @commit: Alter atributes and methods denomination
     #merge->master
 + fiz/feat/define-achitectural-constraints
     @
