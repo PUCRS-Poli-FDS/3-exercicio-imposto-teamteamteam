@@ -41,7 +41,11 @@ public final class CPF {
             sm = 0;
             peso = 11;
             for(i=0; i<10; i++) {
+<<<<<<< HEAD
                 num = (int)(code.charAt(i) - 48);
+=======
+                num = (int)(CPF.charAt(i) - 48);
+>>>>>>> d68e64e069ee1dd99dea62d91a7f794e22165e86
             sm = sm + (num * peso);
             peso = peso - 1;
         }
@@ -52,7 +56,11 @@ public final class CPF {
             else dig11 = (char)(r + 48);
         
             // Verifica se os digitos calculados conferem com os digitos informados.
+<<<<<<< HEAD
             if ((dig10 == code.charAt(9)) && (dig11 == code.charAt(10)))
+=======
+            if ((dig10 == CPF.charAt(9)) && (dig11 == CPF.charAt(10)))
+>>>>>>> d68e64e069ee1dd99dea62d91a7f794e22165e86
                 return(true);
                 else 
                 return(false);
@@ -62,6 +70,7 @@ public final class CPF {
         }
     }
     
+<<<<<<< HEAD
     public static String generate() {
         return "03005182002";
     }
@@ -69,5 +78,16 @@ public final class CPF {
     public static String print(String code) {
         return(code.substring(0, 3) + "." + code.substring(3, 6) + "." +
         code.substring(6, 9) + "-" + code.substring(9, 11));
+=======
+    public static CPF generate() {
+        CPF cpf = new CPF();
+        cpf.setCPF("03005182002");
+        return cpf;
+    }
+
+    public static String print(String CPF) {
+        return(CPF.substring(0, 3) + "." + CPF.substring(3, 6) + "." +
+        CPF.substring(6, 9) + "-" + CPF.substring(9, 11));
+>>>>>>> d68e64e069ee1dd99dea62d91a7f794e22165e86
     }
 }
