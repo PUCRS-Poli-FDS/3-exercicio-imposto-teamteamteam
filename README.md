@@ -43,6 +43,7 @@ Em função da idade e do número de dependentes do contribuinte devese aplicar 
 - Se a base de cálculo for maior ou igual a R$ 24.000,00, então o imposto a pagar é equivalente ao imposto devido na faixa anterior mais 27,5% do valor da base de cálculo que excede a faixa anterior.
 
 
+###### A tabela das alíquotas exibe corretamente os valores abaixo quando visualizada no VSCode usando a extensão [Markdown All in One]()
 # Tabela das alíquotas
 
 ### Alíquota do Universo de Discurso
