@@ -1,4 +1,4 @@
-package calculator.data;
+package calculator.persistentstorage.data;
 
 import java.util.ArrayList;
 
