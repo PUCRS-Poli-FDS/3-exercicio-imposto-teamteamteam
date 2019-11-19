@@ -142,32 +142,6 @@ Os valores das alíquotas foram divididos em valores diferentes, além da declar
 
 </br>
 
-# Elementos identificados no universo de discurso
-- Pessoa
-  - Nome
-  - CPF
-  - Renda
-    - Rendimento total nos últimos 12 meses
-    - Contribuição total previdenciária oficial
-    - **Base de cálculo** (Rendimento total - Contribuição total previdenciária)
-    - Desconto (baseado na idade ex.:5%)
-    - Valor do desconto (base de cálculo * desconto)
-    - **Base de cálculo** *final com desconto* (Base de cálculo - Valor do desconto)
-  - Idade (data nascimento)
-  - Número de dependentes
-
-- Declaração 
-    - Declaração Simples *(desconto fixo em 5%)*
-    - Declaração Completa *(desconto varia em função da idade e nº de dependentes)*
-    - Cálculo do imposto de renda de pessoa física
-      - Base de cálculo
-          - Base de cálculo zero (isento)
-          - Base de cálculo com rendimentos 
-          - Base de cálculo com rendimento excedente
-    - Contribuição (valor final após o cálculo)
-
-</br>
-
 ## Design Arquitetural
 ---
 
