@@ -91,6 +91,8 @@ Os valores das alíquotas foram divididos em valores diferentes, além da declar
 - Valores dados no enunciado do trabalho, que são resumidos
 - Valores do imposto no Brasil em 2019, que são reais.
 
+</br>
+
 ## Alíquota do Universo de Discurso do enunciado
 ---
 | **Valor Máximo** | **Diferença** |  **Imposto**  | **Imposto acumulado** | **Cálculo imposto acumulado** |
@@ -198,7 +200,7 @@ Os valores das alíquotas foram divididos em valores diferentes, além da declar
 ```java
 // Define architectural constraints
 + fiz/feat/define-achitectural-constraints
-    @commit: ""t7
+    @commit: "Properly rename packages within design patterns"
     @build: "v0.2"
     @merge -> master
 ```
@@ -209,26 +211,32 @@ Os valores das alíquotas foram divididos em valores diferentes, além da declar
 ```
 
 ```java
+// Implement tests for the tax algorithm
++ fiz/test/implement-algorithm-to-calculate-tax
+```
+
+```java
 // Generate random data for taxpayer
 + fiz/feat/generate-taxpayer-random-data
 ```
 
 ```java
+// Export a markdown file with the algorithm output
 + fiz/feat/print-report-in-markdown
 ```
 
 ```java
-+ fiz/feat/implement-main-parameter-handling
+// Build a GUI
++ fiz/feat/implement-main-gui
 ```
 
 ###### legend:
 
 `fiz/` "desenvolvedor atribuído"  
-`test/` "implementar testes"  
-`fix/` "consertar algo"  
-`bug/` "corrigir um bug"  
 `feat/` "implementar uma feature"  
+`test/` "implementar testes"  
 `@commit:` "título do commit"  
+`@fix` "commit para consertar um problema"  
 `@build` "rodar testes e compilar o código antes do merge"  
 `@merge->master` "a branch master recebe a feature da branch atual"  
 `+ fiz/feat/branch-name` "uma *branch* em que o desenvolvedor *fiz* implementa uma *feature*"
