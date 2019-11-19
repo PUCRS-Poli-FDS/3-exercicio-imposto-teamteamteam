@@ -1,4 +1,4 @@
-package calculator.data;
+package calculator.database.data;
 
 import java.util.ArrayList;
 
