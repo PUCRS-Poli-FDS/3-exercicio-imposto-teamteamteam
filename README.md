@@ -202,6 +202,11 @@ Os valores das alíquotas foram divididos em valores diferentes, além da declar
 // Define architectural constraints
 + fiz/feat/define-achitectural-constraints
     @commit: "Properly rename packages within design patterns"
+    @commit: "Implement taxpayer context"
+    @merge -> master
+    @commit: "Implement database context to store taxpayer's data"
+    @commit: "Implement declarations context"
+    @commit: "Implement database context to store declaration's data"
     @build: "v0.2"
     @merge -> master
 ```
