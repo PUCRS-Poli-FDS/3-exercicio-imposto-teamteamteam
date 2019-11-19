@@ -7,8 +7,8 @@ public final class CPF {
     public static boolean isValid(String code) {
         // considera-se erro CPF's formados por uma sequencia de numeros iguais
         if (code.equals("00000000000") ||
-        code.equals("11111111111") ||
-        code.equals("22222222222") || code.equals("33333333333") ||
+            code.equals("11111111111") ||
+            code.equals("22222222222") || code.equals("33333333333") ||
             code.equals("44444444444") || code.equals("55555555555") ||
             code.equals("66666666666") || code.equals("77777777777") ||
             code.equals("88888888888") || code.equals("99999999999") ||
