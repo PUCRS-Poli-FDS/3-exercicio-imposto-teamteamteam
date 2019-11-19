@@ -15,12 +15,18 @@ O limite máximo de desconto do INSS sobre o salário é `R$642,34`/mês, ou `11
 
 ## Nomenclatura
 ---
-`contribuinte:` Pessoa que paga o imposto.  
-`total de rendimentos:` É o valor do salário anual do contribuinte (salário x12 meses).  
-`contribuição previdenciária:` Normalmente é 10% do **total de rendimentos**.  
-`base de cálculo:` É o valor central a partir do qual se aplica as fórmulas do cálculo do imposto obtido descontando-se do **total de rendimentos** a **contribuição previdenciária** anual.  
-`dependentes` Número de pessoas dependentes do contrubuinte. Quanto mais pessoas maior o desconto.  
-`desconto:` É um valor calculado dependendo da *idade* do contribuinte e de quantos *dependentes* ele tem.  
+- `contribuinte:`  
+    - Pessoa que paga o imposto. 
+- `total de rendimentos:`  
+    - É o valor do salário anual do contribuinte (salário x12 meses).  
+- `contribuição previdenciária:`  
+    - Normalmente é 10% do **total de rendimentos**.  
+- `base de cálculo:`  
+    - É o valor central a partir do qual se aplica as fórmulas do cálculo do imposto obtido descontando-se do **total de rendimentos** a **contribuição previdenciária** anual.  
+- `dependentes:`  
+    - Número de pessoas dependentes do contrubuinte. Quanto mais pessoas maior o desconto.  
+- `desconto:`  
+    - É um valor calculado dependendo da *idade* do contribuinte e de quantos *dependentes* ele tem.  
 
 </br>
 
