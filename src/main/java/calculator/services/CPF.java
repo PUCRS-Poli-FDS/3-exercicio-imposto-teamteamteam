@@ -66,6 +66,14 @@ public final class CPF {
         return "03005182002";
     }
 
+    public static boolean compare(String CPF1, String CPF2) {
+        boolean flag = false;
+        if(CPF1 == CPF2) {
+            flag = true;
+        }
+        return flag;
+    }
+
     public static String print(String code) {
         return(code.substring(0, 3) + "." + code.substring(3, 6) + "." +
         code.substring(6, 9) + "-" + code.substring(9, 11));
