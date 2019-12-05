@@ -1,4 +1,7 @@
-package calculator.domain;
+package calculator.services.factories.declaration;
+
+import calculator.domain.SimpleDeclaration;
+import calculator.domain.CompleteDeclaration;
 
 public class DeclarationFactory implements AbstractDeclarationFactory{
 
